@@ -118,7 +118,7 @@ repository includes small playgrounds to help you understand them:
 Below is a simple diagram contrasting flexbox and grid layouts to aid your
 intuition:
 
-![Flexbox vs Grid]({{file:file-7oAxHxkzpRkXgXo6wg145P}})
+![Image 2](icons/2.png)
 
 ### YouTube clone
 
@@ -140,7 +140,7 @@ To help visualise the overall layout, the following diagram shows how the
 header, sidebar and video grid fit together.  The colours are purely
 representational and there is no actual content inside the blocks:
 
-![YouTube layout diagram]({{file:file-5Gdsxu8Z2ZwijJW1kqUidS}})
+![Image 1](icons/1.png)
 
 When you open `youtube.html` locally, the page should resemble the basic
 structure of YouTube’s home page, complete with thumbnails from the
