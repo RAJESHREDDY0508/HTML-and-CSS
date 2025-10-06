@@ -16,7 +16,7 @@ that use headings, paragraphs, lists and buttons and gradually introduces more
 advanced topics like **flexbox**, **grid layouts** and **positioning**.  The
 most elaborate example is a miniature YouTube clone (`youtube.html`) that
 combines many of these techniques: a fixed header with tooltips, a collapsible
-sidebar and a responsive grid of video previews【569995653470947†L23-L83】.  All
+sidebar and a responsive grid of video previews.  All
 examples use plain HTML and CSS—no JavaScript or frameworks—so you can focus on
 understanding how markup and styling work together.
 
@@ -27,15 +27,15 @@ high‑level summary:
 
 | Path                       | Description |
 |---------------------------|------------|
-| `index.html`              | A very basic page demonstrating headings, paragraphs, lists and buttons【467879346724186†L8-L17】. |
-| `youtube.html`            | A YouTube‑style landing page that brings together multiple CSS files and image assets【569995653470947†L23-L83】. |
+| `index.html`              | A very basic page demonstrating headings, paragraphs, lists and buttons. |
+| `youtube.html`            | A YouTube‑style landing page that brings together multiple CSS files and image assets. |
 | `htmlFiles/`              | Contains standalone HTML examples such as **Buttons**, **Text**, **Flexbox**, **Grid** and **Position** demos. |
-| `cssFiles/`               | CSS stylesheets used by the various HTML files.  The YouTube clone uses `generalyoutube.css`, `header.css`, `sidebar.css` and `video.css`【252673477097880†L0-L14】. |
+| `cssFiles/`               | CSS stylesheets used by the various HTML files.  The YouTube clone uses `generalyoutube.css`, `header.css`, `sidebar.css` and `video.css`. |
 | `channel‑pictures/`       | JPEG profile images for the YouTube example. |
 | `thumbnails/`             | `.webp` thumbnails used in the video grid on `youtube.html`. |
 | `icons/`                  | SVG icons (menu, search, upload etc.) used throughout the YouTube page. |
 
-Throughout this README you will see citations (e.g. 【569995653470947†L23-L83】) pointing back to the original code so you can jump to the relevant lines for more detail.
+Throughout this README you will see citations (e.g.) pointing back to the original code so you can jump to the relevant lines for more detail.
 
 ## Quick start
 
@@ -64,7 +64,7 @@ Throughout this README you will see citations (e.g. 【569995653470947†L23-L83
 ### Basic HTML: `index.html`
 
 The simplest example demonstrates how to structure a web page using headings,
-paragraphs and lists【467879346724186†L8-L17】.  Two buttons and a link show how
+paragraphs and lists.  Two buttons and a link show how
 interactive elements look without any custom styling.  Use this file to
 familiarise yourself with basic tags like `<h1>`, `<p>`, `<ul>`/`<li>`,
 `<button>` and `<a>`.
@@ -75,10 +75,10 @@ There are two button exercises:
 
 * **`htmlFiles/buttons.html` + `cssFiles/buttons.css`** – Shows how to
   create subscribe/join/tweet buttons reminiscent of social media platforms.
-  The CSS demonstrates hover states and transitions【972922598257730†L0-L16】.
+  The CSS demonstrates hover states and transitions.
 * **`htmlFiles/Buttons_Practice.html` + `cssFiles/Buttons_Practice.css`** –
   Provides additional styles such as dark buttons that invert colours on hover
-  and pill‑shaped call‑to‑action buttons with drop shadows【405754478263675†L0-L16】.
+  and pill‑shaped call‑to‑action buttons with drop shadows.
 
 Experiment with these files by tweaking colours, padding or border radius to
 see how they affect the appearance and behaviour of buttons.
@@ -89,12 +89,12 @@ Several pages explore text styling:
 
 * **`htmlFiles/Text.html` + `cssFiles/text.css`** – Uses classes to style
   different types of text: a video title, view count, author name and a
-  promotional banner【321768686521390†L9-L17】【849614380255435†L17-L33】.  You’ll
+  promotional banner.  You’ll
   learn about font families, sizes, line height, margins and hover effects on
   inline links.
 * **`htmlFiles/Textexercise1.html` + `cssFiles/Textexercise1.css`** –
   Demonstrates how to use headings, subheadings and supporting text along
-  with a call‑to‑action button styled in green【125957439155214†L9-L14】.
+  with a call‑to‑action button styled in green.
 
 ### Layouts: Flexbox, Grid and Positioning
 
@@ -104,16 +104,15 @@ repository includes small playgrounds to help you understand them:
 * **Flexbox (`htmlFiles/flexbox.html`)** – Shows how to align items in
   rows, control their proportional widths using `flex` values and use
   properties like `justify-content` and `align-items` to space them out
-  horizontally and vertically【707129207218227†L8-L25】.  The example also
+  horizontally and vertically.  The example also
   demonstrates how margins and borders interact with flexible items.
 * **Grid (`htmlFiles/grid.html`)** – Illustrates different `grid-template-columns`
   configurations: fixed pixel widths, fractional units (`1fr`) and responsive
-  grids with gaps【962512013206363†L8-L30】.  Notice how changing the column
+  grids with gaps.  Notice how changing the column
   definition alters the layout of the boxes.
 * **Positioning (`htmlFiles/position.html`)** – Uses `position: fixed` for
   sticky headers and sidebars, `position: relative` as a containing block and
-  `position: absolute` for overlays like badges or timers【39272587839031†L11-L28】
-  【39272587839031†L46-L55】.  You’ll also see how `z-index` controls stacking
+  `position: absolute` for overlays like badges or timers.  You’ll also see how `z-index` controls stacking
   order.
 
 Below is a simple diagram contrasting flexbox and grid layouts to aid your
@@ -127,15 +126,15 @@ The crown jewel of this repository is `youtube.html`, a simplified recreation
 of YouTube’s home page.  It combines multiple concepts:
 
 * A **fixed header** containing a hamburger menu, logo, search bar, voice
-  search button and icons for upload, apps and notifications【569995653470947†L23-L83】.
+  search button and icons for upload, apps and notifications.
   Tooltips appear on hover thanks to absolutely positioned elements and
-  `opacity` transitions defined in `cssFiles/header.css`【252673477097880†L71-L99】.
+  `opacity` transitions defined in `cssFiles/header.css.
 * A **vertical sidebar** with icons and labels; it stays fixed on the left
-  side of the page and highlights links on hover【356231011318502†L0-L20】.
+  side of the page and highlights links on hover.
 * A **responsive grid** of video previews.  Each preview comprises a thumbnail,
   the channel’s profile picture and video metadata (title, author and views).
   Media queries in `cssFiles/video.css` adjust the number of columns based on
-  the viewport width【172334426197860†L39-L57】.
+  the viewport width.
 
 To help visualise the overall layout, the following diagram shows how the
 header, sidebar and video grid fit together.  The colours are purely
